@@ -1,7 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-
+/*
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html,
 body,
@@ -343,7 +347,6 @@ pre code {
 .align-right {
     text-align: right;
 }
-
 
 /* Container */
 
@@ -2680,17 +2683,15 @@ input[type="button"]:disabled,
     justify-content: space-between;
     background-color: #1f1815;
     background-attachment: scroll, scroll;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+    background-image: url("../../images/bg.jpeg");
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
     color: rgba(255, 255, 255, 0.5);
     height: 100%;
-    left: 0;
     padding: 8em 4em;
     position: fixed;
     text-align: right;
-    top: 0;
     width: 35%;
 }
 
@@ -2776,7 +2777,7 @@ input[type="button"]:disabled,
 #main {
     margin-left: 35%;
     max-width: 54em;
-    padding: 1em 4em 4em 4em;
+    padding: 8em 4em 4em 4em;
     width: calc(100% - 35%);
 }
 
@@ -3166,7 +3167,7 @@ body.is-touch .poptrox-popup .closer {
     #footer {
         background-attachment: scroll;
         background-color: #1f1815;
-        background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+        background-image: url("../../images/bg.jpg");
         background-position: top left, bottom center;
         background-repeat: repeat, no-repeat;
         background-size: auto, cover;
@@ -3198,7 +3199,7 @@ body.is-touch .poptrox-popup .closer {
 
     #main {
         margin: 0;
-        padding: 0 4em;
+        padding: 6em 4em;
         width: 100%;
     }
 
@@ -3309,9 +3310,10 @@ body.is-touch .poptrox-popup .closer {
 
 }
 
-/* SITE ADDONS */
-
-.languages{
+#header .inner h1 {
+font-size: 3rem;
+}
+.languages {
     display: grid;
 
     grid-template-areas:
@@ -3380,17 +3382,6 @@ body.is-touch .poptrox-popup .closer {
 
 /*PROJECTS*/
 
-.projects{
-    display: grid;
-    grid-template-areas: 
-        'p1 p2'
-        'p3 p4'
-}
-
-.project1{ grid-area: p1}
-.project1{ grid-area: p2}
-.project1{ grid-area: p3}
-.project1{ grid-area: p4}
 
 /*CONTACT */
 
@@ -3407,45 +3398,39 @@ body.is-touch .poptrox-popup .closer {
 }
 
 #map {
-    grid-area: api; /* google maps api */
+    grid-area: api;
+    /* google maps api */
 }
 
 .contact-info {
     grid-area: contact;
-    justify-self: center;
+    justify-self: start;
 }
 
-@media only screen and (max-width: 660px) { /* putting js api and contact one above other */
-    .contact-form{
+@media only screen and (max-width: 660px) {
+
+    /* putting js api and contact one above other */
+    .contact-form {
         grid-template-rows: 400px 1fr;
         grid-template-columns: 1fr;
-        
-        grid-template-areas: 
+
+        grid-template-areas:
             'api api'
             'contact  contact';
     }
-    
-    .contact-info{
-        justify-self: start;
+
+    .contact-info {
+        margin-top: 20px;
     }
-    
-    #footer{ /*moving footer down*/
+
+    #footer {
+/*        moving footer down*/
         position: relative;
-        top :200px;
+        top: 220px;
+    }
+
+    .mt-1-xs {
+        margin-top: 4px;
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
