@@ -1,5 +1,5 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url('font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic');
 
 /*
 	Strata by HTML5 UP
@@ -128,7 +128,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -194,7 +194,7 @@ input,
 select,
 textarea {
   color: #a2a2a2;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
   line-height: 1.75em;
@@ -316,7 +316,7 @@ code {
   background: #f7f7f7;
   border-radius: 0.35em;
   border: solid 2px #efefef;
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
@@ -324,7 +324,7 @@ code {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
   font-size: 0.9em;
   margin: 0 0 2em 0;
 }
@@ -1902,9 +1902,9 @@ label {
   margin: 0 0 1em 0;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
 select,
 textarea {
   -moz-appearance: none;
@@ -1922,17 +1922,17 @@ textarea {
   width: 100%;
 }
 
-input[type="text"]:invalid,
-input[type="password"]:invalid,
-input[type="email"]:invalid,
+input[type='text']:invalid,
+input[type='password']:invalid,
+input[type='email']:invalid,
 select:invalid,
 textarea:invalid {
   box-shadow: none;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
 select:focus,
 textarea:focus {
   border-color: #49bf9d;
@@ -1961,9 +1961,9 @@ select::-ms-expand {
   display: none;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
 select {
   height: 2.75em;
 }
@@ -1972,8 +1972,8 @@ textarea {
   padding: 0.75em;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -1986,8 +1986,8 @@ input[type="radio"] {
   z-index: -1;
 }
 
-input[type="checkbox"] + label,
-input[type="radio"] + label {
+input[type='checkbox'] + label,
+input[type='radio'] + label {
   text-decoration: none;
   color: #a2a2a2;
   cursor: pointer;
@@ -1999,8 +1999,8 @@ input[type="radio"] + label {
   position: relative;
 }
 
-input[type="checkbox"] + label:before,
-input[type="radio"] + label:before {
+input[type='checkbox'] + label:before,
+input[type='radio'] + label:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
@@ -2009,12 +2009,12 @@ input[type="radio"] + label:before {
   text-transform: none !important;
 }
 
-input[type="checkbox"] + label:before,
-input[type="radio"] + label:before {
+input[type='checkbox'] + label:before,
+input[type='radio'] + label:before {
   background: #f7f7f7;
   border-radius: 0.35em;
   border: solid 2px transparent;
-  content: "";
+  content: '';
   display: inline-block;
   height: 1.65em;
   left: 0;
@@ -2025,24 +2025,24 @@ input[type="radio"] + label:before {
   width: 1.65em;
 }
 
-input[type="checkbox"]:checked + label:before,
-input[type="radio"]:checked + label:before {
+input[type='checkbox']:checked + label:before,
+input[type='radio']:checked + label:before {
   background: #787878;
   border-color: #787878;
   color: #fff;
-  content: "\f00c";
+  content: '\f00c';
 }
 
-input[type="checkbox"]:focus + label:before,
-input[type="radio"]:focus + label:before {
+input[type='checkbox']:focus + label:before,
+input[type='radio']:focus + label:before {
   border-color: #49bf9d;
 }
 
-input[type="checkbox"] + label:before {
+input[type='checkbox'] + label:before {
   border-radius: 0.35em;
 }
 
-input[type="radio"] + label:before {
+input[type='radio'] + label:before {
   border-radius: 100%;
 }
 
@@ -2122,9 +2122,9 @@ input[type="radio"] + label:before {
   -webkit-transition: opacity 0.2s ease-in-out;
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
-  background: url("images/overlay.png");
+  background: url('images/overlay.png');
   border-radius: 0.35em;
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   left: 0;
@@ -2146,7 +2146,7 @@ input[type="radio"] + label:before {
   border-radius: 0.35em;
   border: solid 3px rgba(255, 255, 255, 0.5);
   color: #fff;
-  content: "View";
+  content: 'View';
   display: inline-block;
   font-size: 0.8em;
   font-weight: 400;
@@ -2167,7 +2167,7 @@ input[type="radio"] + label:before {
 }
 
 .image.thumb:hover:before {
-  background: url("images/overlay.png"), url("images/overlay.png");
+  background: url('images/overlay.png'), url('images/overlay.png');
   opacity: 1;
 }
 
@@ -2417,17 +2417,17 @@ ul.actions.fit.stacked {
     padding-top: 0;
   }
 
-  ul.actions:not(.fixed) li input[type="submit"],
-  ul.actions:not(.fixed) li input[type="reset"],
-  ul.actions:not(.fixed) li input[type="button"],
+  ul.actions:not(.fixed) li input[type='submit'],
+  ul.actions:not(.fixed) li input[type='reset'],
+  ul.actions:not(.fixed) li input[type='button'],
   ul.actions:not(.fixed) li button,
   ul.actions:not(.fixed) li .button {
     width: 100%;
   }
 
-  ul.actions:not(.fixed) li input[type="submit"].icon:before,
-  ul.actions:not(.fixed) li input[type="reset"].icon:before,
-  ul.actions:not(.fixed) li input[type="button"].icon:before,
+  ul.actions:not(.fixed) li input[type='submit'].icon:before,
+  ul.actions:not(.fixed) li input[type='reset'].icon:before,
+  ul.actions:not(.fixed) li input[type='button'].icon:before,
   ul.actions:not(.fixed) li button.icon:before,
   ul.actions:not(.fixed) li .button.icon:before {
     margin-left: -0.5em;
@@ -2504,9 +2504,9 @@ table.alt tfoot {
 
 /* Button */
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
 .button {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -2537,90 +2537,90 @@ input[type="button"],
   white-space: nowrap;
 }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
+input[type='submit']:hover,
+input[type='reset']:hover,
+input[type='button']:hover,
 .button:hover {
   border-color: #49bf9d;
   color: #49bf9d !important;
 }
 
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active,
+input[type='submit']:active,
+input[type='reset']:active,
+input[type='button']:active,
 .button:active {
   background-color: rgba(73, 191, 157, 0.1);
   border-color: #49bf9d;
   color: #49bf9d !important;
 }
 
-input[type="submit"].icon,
-input[type="reset"].icon,
-input[type="button"].icon,
+input[type='submit'].icon,
+input[type='reset'].icon,
+input[type='button'].icon,
 .button.icon {
   padding-left: 1.35em;
 }
 
-input[type="submit"].icon:before,
-input[type="reset"].icon:before,
-input[type="button"].icon:before,
+input[type='submit'].icon:before,
+input[type='reset'].icon:before,
+input[type='button'].icon:before,
 .button.icon:before {
   margin-right: 0.5em;
 }
 
-input[type="submit"].fit,
-input[type="reset"].fit,
-input[type="button"].fit,
+input[type='submit'].fit,
+input[type='reset'].fit,
+input[type='button'].fit,
 .button.fit {
   min-width: 0;
   width: 100%;
 }
 
-input[type="submit"].small,
-input[type="reset"].small,
-input[type="button"].small,
+input[type='submit'].small,
+input[type='reset'].small,
+input[type='button'].small,
 .button.small {
   font-size: 0.8em;
 }
 
-input[type="submit"].large,
-input[type="reset"].large,
-input[type="button"].large,
+input[type='submit'].large,
+input[type='reset'].large,
+input[type='button'].large,
 .button.large {
   font-size: 1.35em;
 }
 
-input[type="submit"].primary,
-input[type="reset"].primary,
-input[type="button"].primary,
+input[type='submit'].primary,
+input[type='reset'].primary,
+input[type='button'].primary,
 .button.primary {
   background-color: #49bf9d;
   border-color: #49bf9d;
   color: #ffffff !important;
 }
 
-input[type="submit"].primary:hover,
-input[type="reset"].primary:hover,
-input[type="button"].primary:hover,
+input[type='submit'].primary:hover,
+input[type='reset'].primary:hover,
+input[type='button'].primary:hover,
 .button.primary:hover {
   background-color: #5cc6a7;
   border-color: #5cc6a7;
 }
 
-input[type="submit"].primary:active,
-input[type="reset"].primary:active,
-input[type="button"].primary:active,
+input[type='submit'].primary:active,
+input[type='reset'].primary:active,
+input[type='button'].primary:active,
 .button.primary:active {
   background-color: #3eb08f;
   border-color: #3eb08f;
 }
 
-input[type="submit"].disabled,
-input[type="submit"]:disabled,
-input[type="reset"].disabled,
-input[type="reset"]:disabled,
-input[type="button"].disabled,
-input[type="button"]:disabled,
+input[type='submit'].disabled,
+input[type='submit']:disabled,
+input[type='reset'].disabled,
+input[type='reset']:disabled,
+input[type='button'].disabled,
+input[type='button']:disabled,
 .button.disabled,
 .button:disabled {
   background-color: #e7e7e7 !important;
@@ -2671,7 +2671,7 @@ input[type="button"]:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll, scroll;
-  background-image: url("../../images/bg.jpeg");
+  background-image: url('../../images/bg.jpeg');
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
@@ -2886,7 +2886,7 @@ input[type="button"]:disabled,
 }
 
 .poptrox-popup .loader:before {
-  content: "\f1ce";
+  content: '\f1ce';
 }
 
 .poptrox-popup .caption {
@@ -2948,7 +2948,7 @@ input[type="button"]:disabled,
 }
 
 .poptrox-popup .nav-next:before {
-  content: "\f105";
+  content: '\f105';
   right: 0;
 }
 
@@ -2957,7 +2957,7 @@ input[type="button"]:disabled,
 }
 
 .poptrox-popup .nav-previous:before {
-  content: "\f104";
+  content: '\f104';
   left: 0;
 }
 
@@ -2996,7 +2996,7 @@ input[type="button"]:disabled,
   box-sizing: content-box;
   border-radius: 100%;
   border: solid 3px rgba(255, 255, 255, 0.5);
-  content: "\f00d";
+  content: '\f00d';
   display: block;
   font-size: 1em;
   height: 1.75em;
@@ -3150,7 +3150,7 @@ body.is-touch .poptrox-popup .closer {
   #footer {
     background-attachment: scroll;
     background-color: #1f1815;
-    background-image: url("../../images/bg.jpg");
+    background-image: url('../../images/bg.jpg');
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -3295,12 +3295,12 @@ body.is-touch .poptrox-popup .closer {
   display: grid;
 
   grid-template-areas:
-    "......  header  ......"
-    "html  css  js"
-    "typescript react dart"
-    "flutter nodejs gql"
-    "mysql mongo docker"
-    "aws firebase .";
+    '......  header  ......'
+    'html  css  js'
+    'typescript python3 react'
+    'flutter nodejs gql'
+    'mysql mongo docker'
+    'aws firebase dart';
   /* "typescript react dart"
     "flutter nodejs gql"
     "mysql mongo docker"
@@ -3365,6 +3365,10 @@ body.is-touch .poptrox-popup .closer {
   width: 40%;
 }
 
+.python3 {
+  width: 40%;
+}
+
 .major {
   grid-area: header;
 }
@@ -3425,6 +3429,10 @@ body.is-touch .poptrox-popup .closer {
   grid-area: firebase;
 }
 
+.python3-container {
+  grid-area: python3;
+}
+
 /*PROJECTS*/
 
 /*CONTACT */
@@ -3436,8 +3444,8 @@ body.is-touch .poptrox-popup .closer {
   grid-template-columns: 1fr 450px;
 
   grid-template-areas:
-    "contact api"
-    "contact api";
+    'contact api'
+    'contact api';
 }
 
 #map {
@@ -3457,8 +3465,8 @@ body.is-touch .poptrox-popup .closer {
     grid-template-columns: 1fr;
 
     grid-template-areas:
-      "api api"
-      "contact  contact";
+      'api api'
+      'contact  contact';
   }
 
   .contact-info {
@@ -3502,7 +3510,7 @@ body.is-touch .poptrox-popup .closer {
   color: #787878;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,100,400");
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
 .container {
   display: flex;
