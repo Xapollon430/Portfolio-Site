@@ -3298,13 +3298,10 @@ body.is-touch .poptrox-popup .closer {
     "......  header  ......"
     "html  css  js"
     "typescript python3 react"
-    "flutter nodejs gql"
+    "go nodejs gql"
     "mysql mongo docker"
-    "aws firebase dart";
-  /* "typescript react dart"
-    "flutter nodejs gql"
-    "mysql mongo docker"
-    "aws firebase" */
+    "aws firebase flutter"
+    "swift gcs .";
 
   text-align: center;
 }
@@ -3329,8 +3326,8 @@ body.is-touch .poptrox-popup .closer {
   width: 44%;
 }
 
-.dart {
-  width: 40%;
+.go {
+  width: 60%;
 }
 
 .flutter {
@@ -3369,6 +3366,14 @@ body.is-touch .poptrox-popup .closer {
   width: 40%;
 }
 
+.gcs {
+  width: 80%;
+}
+
+.swift {
+  width: 40%;
+}
+
 .major {
   grid-area: header;
 }
@@ -3393,8 +3398,12 @@ body.is-touch .poptrox-popup .closer {
   grid-area: react;
 }
 
-.dart-container {
-  grid-area: dart;
+.swift-container {
+  grid-area: swift;
+}
+
+.go-container {
+  grid-area: go;
 }
 
 .flutter-container {
@@ -3423,6 +3432,10 @@ body.is-touch .poptrox-popup .closer {
 
 .aws-container {
   grid-area: aws;
+}
+
+.gcs-container {
+  grid-area: gcs;
 }
 
 .firebase-container {
@@ -3549,4 +3562,12 @@ body.is-touch .poptrox-popup .closer {
   h2 {
     font-size: 1.5rem;
   }
+}
+
+.description {
+  font-size: 16px !important;
+}
+
+.project-title {
+  font-size: 24px !important;
 }
