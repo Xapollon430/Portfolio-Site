@@ -3447,6 +3447,41 @@ body.is-touch .poptrox-popup .closer {
 }
 
 /*PROJECTS*/
+.card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
+}
+
+.card .image.fit {
+  margin: 0;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+}
+
+.card .image.fit img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.card .btn {
+  margin: 0.25rem;
+}
 
 /*CONTACT */
 
