@@ -3645,6 +3645,9 @@ body.is-touch .poptrox-popup .closer {
 /* High contrast actions over the sidebar photograph. */
 #header .resume-link {
   display: inline-block;
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: nowrap;
   color: #172126;
   background: #fff;
   border: 1px solid #fff;
