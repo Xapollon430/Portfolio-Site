@@ -14,7 +14,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css?v=20261017-bio" />
     <link rel="icon" type="image/x-icon" href="/images/123.png" />
   </head>
 
@@ -33,7 +33,7 @@
           ></span>
           <br />
           <div class="resume-cta">
-            <a href="https://docs.google.com/document/d/1MLSjzIlp-tkDFFSlsA80ocfDSqGKshe8mIeJKQa_Rno/edit?usp=sharing" class="resume-link" style="font-size: 0.55em; padding: 0.5paraem;">View Resume</a>
+            <a href="https://docs.google.com/document/d/1MLSjzIlp-tkDFFSlsA80ocfDSqGKshe8mIeJKQa_Rno/edit?usp=sharing" class="resume-link">View Resume</a>
           </div>
         </h1>
       </div>
@@ -52,11 +52,11 @@
         </header>
 
         <p class="para">
-          My name is Vehbi Karaagac, most of the times I go by "V". I am a
-          Computer Science graduate from George Mason University and I am
-          currently working in the software industry. As far as hobbies I like
-          to read classics, exercise, and I love to build applications on all
-          platforms: Web, Mobile, Apple Watch, and CLI tools.
+          My name is Vehbi Karaagac, most of the times I go by "V". I am a CS
+          graduate from George Mason University and I am currently working at
+          Antithesis on deterministic simulation testing. As far as hobbies I
+          like to read classics, exercise, and I love to build applications on
+          all platforms: Web, Mobile, Apple Watch, and CLI tools.
         </p>
       </section>
 
@@ -410,19 +410,14 @@
           <h2>My Skills</h2>
         </header>
 
-        <div class="html-container">
-          <img src="images/skills/html.png" class="html" />
-          <p>HTML 5</p>
+        <div class="nixos-container">
+          <img src="images/skills/nixos.svg" class="nixos" alt="NixOS logo" />
+          <p>NixOS</p>
         </div>
 
-        <div class="css-container">
-          <img src="images/skills/css.png" class="css" />
-          <p>CSS 3</p>
-        </div>
-
-        <div class="javascript-container">
-          <img src="images/skills/javascript.png" class="javascript" />
-          <p>Javascript</p>
+        <div class="rust-container">
+          <img src="images/skills/rust.svg" class="rust" alt="Rust logo" />
+          <p>Rust</p>
         </div>
 
         <div class="typescript-container">
@@ -503,7 +498,7 @@
         <p>Have questions or want to work together?</p>
         <div class="row">
           <div class="contact-form">
-            <div id="map" class="border border-dark"></div>
+            <iframe id="map" title="Google Maps: McLean, Virginia" src="https://www.google.com/maps?q=McLean%2C%20Virginia&amp;z=13&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
 
             <ul class="labeled-icons contact-info">
               <li>
@@ -559,23 +554,6 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-      function initMap() {
-        let uluru = {
-          lat: 38.92,
-          lng: -77.22,
-        };
-
-        let map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 6,
-          center: uluru,
-        });
-
-        let marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-        });
-      }
-
       // const TypeWriter = function(txtElement, words, wait = 3000) {
       //   this.txtElement = txtElement;
       //   this.words = words;
@@ -696,10 +674,5 @@
         new TypeWriter(txtElement, words, wait);
       }
     </script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzEOgTBsiGu3OqhDF9lvDw1pWzfhWCjSc&callback=initMap"
-    ></script>
   </body>
 </html>

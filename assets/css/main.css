@@ -3326,18 +3326,18 @@ body.is-touch .poptrox-popup .closer {
 
   grid-template-areas:
     "......  header  ......"
-    "html  css  js"
-    "typescript python3 react"
-    "go nodejs gql"
-    "mysql mongo docker"
-    "aws firebase flutter"
-    "swift gcs .";
+    "nixos rust typescript"
+    "python3 react go"
+    "nodejs gql mysql"
+    "mongo docker aws"
+    "firebase flutter swift"
+    "gcs . .";
 
   text-align: center;
 }
 
-.html {
-  width: 40%;
+.nixos, .rust {
+  width: 44%;
 }
 
 .css {
@@ -3408,8 +3408,12 @@ body.is-touch .poptrox-popup .closer {
   grid-area: header;
 }
 
-.html-container {
-  grid-area: html;
+.nixos-container {
+  grid-area: nixos;
+}
+
+.rust-container {
+  grid-area: rust;
 }
 
 .css-container {
@@ -3637,3 +3641,39 @@ body.is-touch .poptrox-popup .closer {
 .project-title {
   font-size: 24px !important;
 }
+
+/* High contrast actions over the sidebar photograph. */
+#header .resume-link {
+  display: inline-block;
+  color: #172126;
+  background: #fff;
+  border: 1px solid #fff;
+  font-weight: 600;
+  padding: 0.5em 0.9em;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+#header .resume-link:hover, #header .resume-link:focus-visible {
+  color: #172126 !important;
+  background: #e9f4f1;
+  border-color: #fff;
+}
+#footer .icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+}
+#footer .icons a:hover, #footer .icons a:focus-visible {
+  color: #172126 !important;
+  background: #fff;
+}
+#header .resume-link:focus-visible, #footer .icons a:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+}
+iframe#map { display: block; width: 100%; height: 100%; border: 0; }
